@@ -41,7 +41,7 @@ Framework that creates methods and views of CRUD.
 
 ### Way to use them:
 
-**[x] Define a delegate**
+- [x] **Define a delegate**
 
 ```csharp
 Public delegate void MethodNameEventHandler(object source, EventArgs args)
@@ -50,14 +50,14 @@ Public delegate void MethodNameEventHandler(object source, EventArgs args)
 * Args: any arguments we could pass
 * In .NET there is a convention to name the delegate method as Name + EventHandler ( ```MethodNameEventHandler``` )
 	
-**[x] Define an event based on that delegate**
+- [x] **Define an event based on that delegate**
 	
 ```csharp
 Public event MethodNameEventHandler VideoEncoded;
 ```
 * ○ The event has the same name of the eventHandler
 
-**[x] Raise the event**
+- [x] **Raise the event**
 
 ```csharp
 Protected virtual void OnMethodName(){}

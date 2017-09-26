@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EventsAndDelegates
+namespace EventsAndDelegate
 {
     class Program
     {
@@ -10,17 +10,13 @@ namespace EventsAndDelegates
             var videoEncoder = new VideoEncoder(); //publisher
             var mailService = new MailService(); //subscriber
 
+            var messageService = new MessageService();//subscriber
+
             videoEncoder.VideoEncoded += mailService.OnVideoEncoded; // making the subscription
+            videoEncoder.VideoEncoded += messageService.OnVideoEncoded;
 
             videoEncoder.Encode(video);
         }
     }
 
-    public class MailService
-    {
-        public void OnVideoEncoded(object source, EventArgs e)
-        {
-            Console.WriteLine("MailService: Sending an email ...");
-        }
-    }
 }

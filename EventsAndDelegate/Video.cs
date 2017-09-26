@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EventsAndDelegates
+namespace EventsAndDelegate
 {
     public class Video
     {

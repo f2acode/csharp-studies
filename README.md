@@ -41,7 +41,9 @@ Framework that creates methods and views of CRUD.
 
 ### Way to use them:
 
-- [x] **Define a delegate**
+- [x] **Define a delegate and define an event based on that delegate**
+
+**First way:**
 
 ```csharp
 Public delegate void MethodNameEventHandler(object source, EventArgs args)
@@ -50,17 +52,35 @@ Public delegate void MethodNameEventHandler(object source, EventArgs args)
 * Args: any arguments we could pass
 * In .NET there is a convention to name the delegate method as Name + EventHandler ( ```MethodNameEventHandler``` )
 	
-- [x] **Define an event based on that delegate**
-	
 ```csharp
 Public event MethodNameEventHandler VideoEncoded;
 ```
+
+**Other (best) way:**
+
+Define a without args as parameters
+
+```csharp
+public event EventHandler VideoEncoded;
+```
+
+Define a with args as parameters
+
+```csharp
+public event EventHandler<EventArgs> VideoEncoded;
+```
+
+* The event. It's just a pointer to the events that we can define after.
 * ○ The event has the same name of the eventHandler
 
 - [x] **Raise the event**
 
 ```csharp
-Protected virtual void OnMethodName(){}
+Protected virtual void OnEventName(){}
 ```
-
+* The method that calls the event
 * .NET suggestions that the event publisher methods should be protected, virtual and void, start with the word On and the name of the event (VideoEncoded)
+
+### The benefits
+
+We can see that it's not necessary to change the class that have the delegates, we can just put more and more events.

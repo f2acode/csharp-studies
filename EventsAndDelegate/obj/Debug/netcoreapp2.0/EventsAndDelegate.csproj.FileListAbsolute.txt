@@ -1,0 +1,11 @@
+C:\projects\csharp-studies\EventsAndDelegate\bin\Debug\netcoreapp2.0\EventsAndDelegate.deps.json
+C:\projects\csharp-studies\EventsAndDelegate\bin\Debug\netcoreapp2.0\EventsAndDelegate.runtimeconfig.json
+C:\projects\csharp-studies\EventsAndDelegate\bin\Debug\netcoreapp2.0\EventsAndDelegate.runtimeconfig.dev.json
+C:\projects\csharp-studies\EventsAndDelegate\bin\Debug\netcoreapp2.0\EventsAndDelegate.dll
+C:\projects\csharp-studies\EventsAndDelegate\bin\Debug\netcoreapp2.0\EventsAndDelegate.pdb
+C:\projects\csharp-studies\EventsAndDelegate\obj\Debug\netcoreapp2.0\EventsAndDelegate.csprojResolveAssemblyReference.cache
+C:\projects\csharp-studies\EventsAndDelegate\obj\Debug\netcoreapp2.0\EventsAndDelegate.csproj.CoreCompileInputs.cache
+C:\projects\csharp-studies\EventsAndDelegate\obj\Debug\netcoreapp2.0\EventsAndDelegate.AssemblyInfoInputs.cache
+C:\projects\csharp-studies\EventsAndDelegate\obj\Debug\netcoreapp2.0\EventsAndDelegate.AssemblyInfo.cs
+C:\projects\csharp-studies\EventsAndDelegate\obj\Debug\netcoreapp2.0\EventsAndDelegate.dll
+C:\projects\csharp-studies\EventsAndDelegate\obj\Debug\netcoreapp2.0\EventsAndDelegate.pdb

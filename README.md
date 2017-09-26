@@ -1,6 +1,6 @@
 # Visual Studio + C# + .NET studies
 
-## 1: The famous HelloWorld
+## [1: The famous HelloWorld]()
 
 ### Simple code:
 ```csharp
@@ -14,10 +14,12 @@ class HelloWorld
   }
 }
 ```
-### Compile with: ```csc HelloWorld.cs```
-### Run with: ```HelloWorld.exe```
+### Compile with:
+```csc HelloWorld.cs```
+### Run with: 
+```HelloWorld.exe```
 
-## 2: Concepts
+## [2: Concepts]()
 
 ### Entity framework:
 A framework to work easily with database inside the code. It auto creates connections, and we don't need to take care about many things.
@@ -25,7 +27,7 @@ A framework to work easily with database inside the code. It auto creates connec
 ### Scaffolding:
 Framework that creates methods and views of CRUD.
 
-## 3: Events and Delegate
+## [3: Events and Delegate](https://github.com/felipeaugustox/csharp-studies/tree/master/EventsAndDelegate)
 
 ### Event
 > A mechanism for communication between objects
@@ -39,9 +41,7 @@ Framework that creates methods and views of CRUD.
 
 ### Way to use them:
 
-#### Define a delegate
-
-- [x] Define a delegate
+#### - [x] Define a delegate
 
 ```csharp
 Public delegate void MethodNameEventHandler(object source, EventArgs args)
@@ -50,16 +50,16 @@ Public delegate void MethodNameEventHandler(object source, EventArgs args)
 * Args: any arguments we could pass
 * In .NET there is a convention to name the delegate method as Name + EventHandler ( ```MethodNameEventHandler``` )
 	
-#### Define an event based on that delegate
+#### - [x] Define an event based on that delegate
 	
 ```csharp
 Public event MethodNameEventHandler VideoEncoded;
 ```
 * ○ The event has the same name of the eventHandler
 
-#### Raise the event 
+#### - [x] Raise the event 
 ```csharp
 Protected virtual void OnMethodName(){}
 ```
 
-.NET suggestions that the event publisher methods should be protected, virtual and void, start with the word On and the name of the event (VideoEncoded)
+* .NET suggestions that the event publisher methods should be protected, virtual and void, start with the word On and the name of the event (VideoEncoded)

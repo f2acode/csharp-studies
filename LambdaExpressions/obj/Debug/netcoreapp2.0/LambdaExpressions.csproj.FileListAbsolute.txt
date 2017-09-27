@@ -1,0 +1,11 @@
+C:\projects\csharp-studies\LambdaExpressions\bin\Debug\netcoreapp2.0\LambdaExpressions.deps.json
+C:\projects\csharp-studies\LambdaExpressions\bin\Debug\netcoreapp2.0\LambdaExpressions.runtimeconfig.json
+C:\projects\csharp-studies\LambdaExpressions\bin\Debug\netcoreapp2.0\LambdaExpressions.runtimeconfig.dev.json
+C:\projects\csharp-studies\LambdaExpressions\bin\Debug\netcoreapp2.0\LambdaExpressions.dll
+C:\projects\csharp-studies\LambdaExpressions\bin\Debug\netcoreapp2.0\LambdaExpressions.pdb
+C:\projects\csharp-studies\LambdaExpressions\obj\Debug\netcoreapp2.0\LambdaExpressions.csprojResolveAssemblyReference.cache
+C:\projects\csharp-studies\LambdaExpressions\obj\Debug\netcoreapp2.0\LambdaExpressions.csproj.CoreCompileInputs.cache
+C:\projects\csharp-studies\LambdaExpressions\obj\Debug\netcoreapp2.0\LambdaExpressions.AssemblyInfoInputs.cache
+C:\projects\csharp-studies\LambdaExpressions\obj\Debug\netcoreapp2.0\LambdaExpressions.AssemblyInfo.cs
+C:\projects\csharp-studies\LambdaExpressions\obj\Debug\netcoreapp2.0\LambdaExpressions.dll
+C:\projects\csharp-studies\LambdaExpressions\obj\Debug\netcoreapp2.0\LambdaExpressions.pdb

@@ -130,3 +130,13 @@ var filteredList = list.Where(x => x > 4;);
 
 * We can use a function without that beeing coupled with the class.
 * That turns the function smaller
+
+## LINQ
+
+## Links of study:
+
+* [Fundamentals for absolute beginners](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949)
+
+* [How to become a backend developer](https://enterwell.net/become-c-sharp-backend-developer/)
+
+* [Step by step C# 2013](https://ptgmedia.pearsoncmg.com/images/9780735681835/samplepages/9780735681835.pdf)

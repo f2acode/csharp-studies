@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsAndDelegate", "EventsAndDelegate\EventsAndDelegate.csproj", "{83C08A05-F55C-43CF-A21E-A0223F56738E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{3C06B258-CDBA-4081-9310-1FF570CB735B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{3C06B258-CDBA-4081-9310-1FF570CB735B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCModularity", "MVCModularity\MVCModularity.csproj", "{7C5E0F33-8A01-4135-97D5-F01FBEE1EA60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3C06B258-CDBA-4081-9310-1FF570CB735B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C06B258-CDBA-4081-9310-1FF570CB735B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C06B258-CDBA-4081-9310-1FF570CB735B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5E0F33-8A01-4135-97D5-F01FBEE1EA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5E0F33-8A01-4135-97D5-F01FBEE1EA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5E0F33-8A01-4135-97D5-F01FBEE1EA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5E0F33-8A01-4135-97D5-F01FBEE1EA60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

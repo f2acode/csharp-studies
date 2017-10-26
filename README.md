@@ -131,7 +131,19 @@ var filteredList = list.Where(x => x > 4;);
 * We can use a function without that beeing coupled with the class.
 * That turns the function smaller
 
-## LINQ
+## [LINQ]()
+
+TODO
+
+## [MVC Modularity]()
+
+### Html.Partial
+```
+@Html.Partial("ButtonBuy", new { text = "I'm modular", color = "red" });
+```
+It's possible to make Views and invoke inside them other pieces of code (like a button). That makes the code more modular and improve the speed of coding. There is a new way is using _View Components_ through [ASP .NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components) with a benefit to be able to work with database.
+
+### View Components
 
 ## Links of study:
 

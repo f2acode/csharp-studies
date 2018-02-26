@@ -19,7 +19,7 @@ class HelloWorld
 ### Run with: 
 ```HelloWorld.exe```
 
-## [2: Concepts]()
+## [2: Little concepts]()
 
 ### Entity framework:
 A framework to work easily with database inside the code. It auto creates connections, and we don't need to take care about many things.
@@ -130,6 +130,17 @@ var filteredList = list.Where(x => x > 4;);
 
 * We can use a function without that beeing coupled with the class.
 * That turns the function smaller
+
+## [Web.config and package.config]()
+
+**Web.config** - used to define DLLs (including the versions) for our projects
+**Package.config*** - used to define the packages for Visual Studio
+
+**Web.config vs App.config**
+
+The choice of the configuration file name is determined by the hosting environment you choose for the service. If you are using IIS to host your service, use a Web.config file. If you are using any other hosting environment, use an App.config file.
+
+TODO - https://weblogs.asp.net/jongalloway/10-things-asp-net-developers-should-know-about-web-config-inheritance-and-overrides
 
 ## [LINQ]()
 
